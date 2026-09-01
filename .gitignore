@@ -1,0 +1,27 @@
+# Terraform
+.terraform/
+.terraform.lock.hcl
+*.tfstate
+*.tfstate.*
+*.tfstate.backup
+crash.log
+crash.*.log
+
+# Variáveis com dados reais (project_id, IP, chave pública)
+terraform.tfvars
+*.auto.tfvars
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Chaves e segredos
+*.pem
+*.key
+secrets/
+.env
+
+# Logs de plan/apply (podem conter dados sensíveis do state)
+plan.log
+*.tfplan
+*.log
