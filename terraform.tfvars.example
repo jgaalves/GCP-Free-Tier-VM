@@ -1,5 +1,5 @@
 project_id     = "seu-project-id-aqui"
 region         = "us-east1"
 zone           = "us-east1-b"
-allowed_cidrs  = ["SEU.IP.PUBLICO.AQUI/32"]  # adicione outros IPs como novos itens da lista
+my_ip_cidr     = "SEU.IP.PUBLICO.AQUI/32"
 ssh_public_key = "cole-aqui-o-conteudo-do-seu-id_ed25519.pub"
